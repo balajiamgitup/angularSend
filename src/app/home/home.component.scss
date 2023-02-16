@@ -1,0 +1,26 @@
+img {
+  width: 1200px;
+  height: 570px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative;
+  z-index: 1;
+  -webkit-animation: mainviewmove 60s infinite ease-in-out;
+  -moz-animation: mainviewmove 60s infinite ease-in-out;
+  animation: mainviewmove 60s infinite ease-in-out;
+}
+.name {
+  color: #055c48;
+  font-family: Arial, sans-serif;
+}
+
+.display-4 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 1.5em;
+  font-weight: normal;
+}

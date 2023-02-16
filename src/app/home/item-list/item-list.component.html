@@ -1,0 +1,66 @@
+<!-- <div style="width: 500px; height: 500px;">
+    <ag-grid-angular 
+      #agGrid 
+      style="width: 100%; height: 100%;" 
+      class="ag-theme-bootstrap"
+      [rowData]="rowData" 
+      [columnDefs]="columnDefs"
+    [enableSorting]="true"
+      [enableFilter]="true">
+    </ag-grid-angular>
+  </div> -->
+
+<div class="container-fluid">
+  <div class="table-responsive">
+    <div class="table-wrapper">
+      <div class="table-title d-flex justify-content-between align-items-center">
+        <h2>Item <b>Details</b></h2>
+      </div>
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>Item Id<i class="fa fa-sort"></i></th>
+
+            <th>Name</th>
+            <th>Price<i class="fa fa-sort"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1001</td>
+
+            <td>Idli</td>
+
+            <td>$45</td>
+            <td>
+              <button type="button" class="btn btn-primary">Order</button>
+            </td>
+          </tr>
+          <tr>
+            <td>1002</td>
+
+            <td>Biriyani</td>
+
+            <td>$120</td>
+            <td>
+              <button type="button" class="btn btn-primary">Order</button>
+            </td>
+          </tr>
+          <tr>
+            <td>1003</td>
+
+            <td>Dosa</td>
+
+            <td>$55</td>
+            <td>
+              <button type="button" class="btn btn-primary">Order</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex justify-content-end">
+        <button type="button" class="btn btn-primary">Send Order</button>
+      </div>
+    </div>
+  </div>
+</div>
